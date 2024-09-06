@@ -10,7 +10,7 @@
   --btn-color-light: #2e073f;
 }
 .header-parent {
-  direction: rtl;
+ 
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -19,4 +19,57 @@
   margin: 10px 20px;
   /* border-radius: var(--border-radius);  مقدار border radius بسیار زیاد بود */
   border-radius: 10px;
+}
+ .leftside{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+} 
+
+.login{
+  display: flex;
+  align-items: center;
+}
+.btnLogin{
+    background-color: #c910c9;
+    color: white;
+    width: 15rem;
+    height: 3.5rem;
+    border-radius: 50rem;
+    font-size: 27px;
+    border: 1px solid #ad03ad;
+    padding-right: 3rem;
+}
+.two-items{
+  display: flex;
+}
+.icon2{
+  font-size: 35px;
+  color: white;
+  margin-left: -3.5rem;
+}
+.shop{
+  margin-left: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+.shops{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50rem;
+    background-color:  #c910c9;
+    border: 1px solid #ad03ad;
+}
+.icon1{
+  font-size: 32px;
+  color: white;
+  margin-left: -44px;
+
+}
+.btnLogin:hover{
+  color:#2e073f;
+}
+
+.icon1:hover{
+  color: #2e073f;
 }
