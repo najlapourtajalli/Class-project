@@ -9,3 +9,14 @@
   --btn-color-dark: #7a1cac;
   --btn-color-light: #2e073f;
 }
+.header-parent {
+  direction: rtl;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--background-color-light);
+  padding: 10px 15px;
+  margin: 10px 20px;
+  /* border-radius: var(--border-radius);  مقدار border radius بسیار زیاد بود */
+  border-radius: 10px;
+}
