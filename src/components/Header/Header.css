@@ -1,0 +1,11 @@
+:root {
+  --box-shadow-light: 0 0 10px #444;
+  --box-shadow-dark: 0 0 10px #bbb;
+  --color: #6c45c5;
+  --border-radius: 15px;
+  --background-color: #1230ae;
+  --background-color-dark: #444;
+  --background-color-light: white;
+  --btn-color-dark: #7a1cac;
+  --btn-color-light: #2e073f;
+}
